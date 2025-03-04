@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2025-03-03T03:51:57.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" etag="LE2vHrhbqNS-zFjg95Ni" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="787" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,6 +739,42 @@
         </mxCell>
         <mxCell id="172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;html=1;exitX=0.75;exitY=0;entryX=0.75;entryY=0;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeColor=#23445D;strokeWidth=2;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;fontStyle=0" parent="1" source="27" target="27" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-172" value="Local backbone switch&amp;nbsp;&lt;div&gt;HONG KONG OFFICE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="2296" y="851" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-191" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="UbUL-3o23nfrx7GC4o43-173" target="UbUL-3o23nfrx7GC4o43-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-173" value="Authentication Server&amp;nbsp;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2160" y="237.5" width="121.5" height="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-188" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="UbUL-3o23nfrx7GC4o43-174" target="UbUL-3o23nfrx7GC4o43-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-174" value="Authentication Server" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1946" y="237.5" width="121.5" height="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-176" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Storage Area Network&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="514" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-190" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="UbUL-3o23nfrx7GC4o43-177" target="UbUL-3o23nfrx7GC4o43-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-177" value="File Sever" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2390" y="237.5" width="121.5" height="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-192" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="UbUL-3o23nfrx7GC4o43-178" target="UbUL-3o23nfrx7GC4o43-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-178" value="File Sever" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2570" y="239.5" width="121.5" height="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-183" value="Tape library&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/UPS_128x128.png;shadow=0;strokeColor=#000000;fillColor=#F2F2F2;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1910" y="636" width="126" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="UbUL-3o23nfrx7GC4o43-184" value="RAID" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2120" y="639" width="126.32" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
